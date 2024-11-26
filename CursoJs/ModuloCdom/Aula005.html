@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com o Dom</title>
+
+    <style>
+        body {
+            background: #ebe8e8;
+            color: white;
+            font: normal 18pt Arial;
+        }
+    </style>
+
+</head>
+<body>
+   
+    <h1>Estudos com Dom </h1>
+    <h1>Significado da sigla DOM(Documet Object Model)</h1>
+
+    <p>As 5 tag mais usadas
+
+        <p>TagName</p>
+        <p>ID</p>
+        <p>Name</p>
+        <p>ClassName</p>
+        <p>QuerySelector</p>
+
+    </p>
+
+    <p>Aprendendo a usar o<strong> DOM </strong>em JavaScript</p>
+    <p><div>Clique aqui</div></p> 
+
+    <script>
+
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p')[0]
+        window.document.write(p1.innerText)
+        corpo.style.background = "black"
+        /* p1.style.color = "red " */
+
+    </script>
+
+</body>
+</html>

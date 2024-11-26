@@ -1,0 +1,70 @@
+				Aula de operadores JavaScript 
+
+			Operadores Aritméticos (+), (-), (*), (/), (%), (**) 
+5+2 
+5-2 
+5*2
+5/2
+5**2
+ 					
+					ordem de precedencia
+
+()
+* / 
+** %
++-
+
+					 Operadores Atribuição 
+
+++
+
+--
+
+					 Operadores Relacionais 
+
+> Maior 
+< Menor 
+>= Maior igual
+<=  Menor igual
+==
+!=
+
+					operador de identidade
+
+===
+
+					 Operadores Logicos 
+
+! = negação
+&& = conjunção
+|| = disjunção
+
+E = Os dois valores precisam ser verdadeiros 
+
+OU = Somente um valor precisa ser verdadeiro
+
+NÃO = Se o resultado for verdadeiro, vira False porque ele nega 
+
+Ordem de precedencia
+
+1 aritmeticos 
+2 relacionais
+3 Logicos
+
+					Precedencia
+
+				() ** / Aritmeticos 
+				> < >= <= Relacionais
+				! não
+				&& E
+				|| OU
+
+
+				 Operadores Ténarios 
+
+?
+:?
+
+					Comando SWITH
+
+SEMPRE UTILIZAR O COMANDO BREAK PARA DAR ENCERRAMENTO NO BLOCO E E OBRIGATORIO INCERRIR ESSE COMANDO 
